@@ -1,5 +1,25 @@
 *.parquet
 
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+
+# Local override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI config
+.terraformrc
+terraform.rc
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
