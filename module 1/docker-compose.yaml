@@ -20,8 +20,6 @@ services:
     ports:
       - "8085:80"
 
-
-
 volumes:
   ny_taxi_postgres_data:
   pgadmin_data:
